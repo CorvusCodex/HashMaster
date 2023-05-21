@@ -7,6 +7,16 @@ In addition to its core functionality, HashMaster also provides the ability to c
 
 Try HashMaster today and experience the power and simplicity of HMAC hashing!
 
+# Installation and Usage
+
+1. Make sure you have Git installed on your computer. You can download it from the official Git website: https://git-scm.com/downloads
+2. Open a command prompt or terminal and navigate to the directory where you want to clone the HashMaster repository.
+3. Clone the HashMaster repository by running the following command: git clone https://github.com/CorvusCodex/HashMaster.git
+4. Navigate to the HashMaster directory by running the command cd HashMaster.
+5. Make sure you have Python installed on your computer. You can download it from the official Python website: https://www.python.org/downloads/
+6. Run the HashMaster script by running the command python hashmaster.py.
+7. Follow the prompts to enter your input string and secret key, and let HashMaster compute the HMAC hashes for you.
+
 
 >Support my work:<br>
 >BTC: bc1q7wth254atug2p4v9j3krk9kauc0ehys2u8tgg3<br>
