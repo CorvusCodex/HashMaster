@@ -1,8 +1,7 @@
 # HashMaster
 
-
 <p align="center">
-  <img src="https://github.com/CorvusCodex/Janus/blob/main/Janus.png?raw=true](https://github.com/CorvusCodex/HashMaster/blob/main/Hash%20Master%20Logo.png](https://github.com/CorvusCodex/HashMaster/blob/main/Hash%20Master%20Logo.png?raw=true">
+  <img src="https://github.com/CorvusCodex/Janus/blob/main/Janus.png?raw=true](https://github.com/CorvusCodex/HashMaster/blob/main/Hash%20Master%20Logo.png](https://github.com/CorvusCodex/HashMaster/blob/main/Hash%20Master%20Logo.png?raw=true](https://github.com/CorvusCodex/HashMaster/blob/main/Hash%20Master%20Logo.png?raw=true">
 </p>
 
 
