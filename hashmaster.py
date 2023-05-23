@@ -1,5 +1,6 @@
 import hashlib
 import hmac
+
 print("============================================================")
 print("Created by: Corvus Codex")
 print("Github: https://github.com/CorvusCodex/")
@@ -10,12 +11,11 @@ print("ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0")
 print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
 print("============================================================")
 
-
 input_string = input("Enter input string: ")
 print("============================================================")
+
 key = input("Enter secret key: ").encode()
 print("============================================================")
-
 
 # Compute HMAC-SHA-256 hash
 sha256_hash = hmac.new(key, input_string.encode(), hashlib.sha256).hexdigest()
@@ -33,6 +33,11 @@ sha384_hash = hmac.new(key, input_string.encode(), hashlib.sha384).hexdigest()
 sha224_hash = hmac.new(key, input_string.encode(), hashlib.sha224).hexdigest()
 # print(f"HMAC-SHA-224: {sha224_hash}")
 
+# Compute HMAC-SHA3-512 hash
+sha3_512_hash = hmac.new(key, input_string.encode(), hashlib.sha3_512).hexdigest()
+# print(f"HMAC-SHA3-512: {sha3_512_hash}")
+
 # Concatenate the results
-concatenated_hashes = sha256_hash + sha512_hash + sha384_hash + sha224_hash
+concatenated_hashes = sha256_hash + sha512_hash + sha384_hash + sha224_hash + sha3_512_hash
+
 print(f"Concatenated hashes: {concatenated_hashes}")
